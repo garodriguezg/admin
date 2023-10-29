@@ -1,0 +1,106 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Dashboard</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item active">Lista de usuarios</li>
+    </ol>
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i>
+        Usuarios
+    </div>
+    <div class="card-body">
+        <table id="datatablesSimple">
+            <thead>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Usuario</th>
+                    <th>Correo</th>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Usuario</th>
+                    <th>Correo</th>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>1001</td>
+                    <td>usuario123</td>
+                    <td>alu123@gmail.com</td>
+                    <td>Maria Jose</td>
+                    <td>Rodriguez Martinez</td>
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>AlexPower</td>
+                    <td>alu321@gmail.com</td>
+                    <td>Pedro Gonzalez</td>
+                    <td>Garcia Lopez</td>
+                </tr>
+                <tr>
+                    <td>1003</td>
+                    <td>Laura_89</td>
+                    <td>xsxsxs323@gmail.com</td>
+                    <td>Claudia Fernandez</td>
+                    <td>Gonzalez Sanchez</td>
+                </tr>
+                <tr>
+                    <td>1004</td>
+                    <td>SuperMan42</td>
+                    <td>juan.pepito@gmail.com</td>
+                    <td>Luis Martinez</td>
+                    <td>Fernando Ramirez</td>
+                </tr>
+                <tr>
+                    <td>1005</td>
+                    <td>GamerProX</td>
+                    <td>sigma@gmail.com</td>
+                    <td>Sofia Rodriguez</td>
+                    <td>Torrez Perez</td>
+                </tr>
+                <tr>
+                    <td>1006</td>
+                    <td>TechWizard</td>
+                    <td>alpha@gmail.com</td>
+                    <td>Andres Lopez</td>
+                    <td>Martinez Flores</td>
+                </tr>
+                <tr>
+                    <td>1007</td>
+                    <td>Sunshine22</td>
+                    <td>delta@gmail.com</td>
+                    <td>Carla Perez</td>
+                    <td>Sanchez Perez</td>
+                </tr>
+                <tr>
+                    <td>1008</td>
+                    <td>DragonRider</td>
+                    <td>zeta@gmail.com</td>
+                    <td>Diego Sanchez</td>
+                    <td>Ramirez Gonzalez</td>
+                </tr>
+                <tr>
+                    <td>1009</td>
+                    <td>StarGazer175</td>
+                    <td>gamma@gmail.com</td>
+                    <td>Laura Garcia</td>
+                    <td>Lopez Torres</td>
+                </tr>
+            
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

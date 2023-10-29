@@ -1,0 +1,139 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Dashboard</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item active">Lista de sensores</li>
+    </ol>
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i>
+        Sensores
+    </div>
+    <div class="card-body">
+        <table id="datatablesSimple">
+            <thead>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Temperatura</th>
+                    <th>Humedad</th>
+                    <th>Garaje</th>
+                    <th>Luces</th>
+                    <th>Fecha de Instalacion</th>
+                    <th>Fecha de Mantenimiento</th>
+                    <th>Observaciones</th>  
+
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Temperatura</th>
+                    <th>Humedad</th>
+                    <th>Garaje</th>
+                    <th>Luces</th>
+                    <th>Fecha de Instalacion</th>
+                    <th>Fecha de Mantenimiento</th>
+                    <th>Observaciones</th>  
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>1001</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>29/07/2023</td>
+                    <td>29/10/2023</td>
+                    <td>Funcional</td>
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>Si</td>
+                    <td>No</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>12/07/2023</td>
+                    <td>12/10/2023</td>
+                    <td>Funcional</td>
+                </tr>
+                <tr>
+                    <td>1003</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>No</td>
+                    <td>15/08/2023</td>
+                    <td>15/11/2023</td>
+                    <td>Luces no funcionan</td>
+                </tr>
+                <tr>
+                    <td>1004</td>
+                    <td>No</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>04/03/2023</td>
+                    <td>05/05/2023</td>
+                    <td>Requiere mantenimiento</td>
+                </tr>
+                <tr>
+                    <td>1005</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>19/10/2023</td>
+                    <td>19/01/2024</td>
+                    <td>Funcional</td>
+                </tr>
+                <tr>
+                    <td>1006</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>Si</td>
+                    <td>15/07/2023</td>
+                    <td>14/10/2023</td>
+                    <td>Funcional</td>
+                </tr>
+                <tr>
+                    <td>1007</td>
+                    <td>Si</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>Si</td>
+                    <td>20/01/2023</td>
+                    <td>21/14/2023</td>
+                    <td>Temperatura no funciona</td>
+                </tr>
+                <tr>
+                    <td>1008</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>13/04/2023</td>
+                    <td>12/07/2023</td>
+                    <td>Funcional</td>
+                </tr>
+                <tr>
+                    <td>1009</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>Si</td>
+                    <td>No</td>
+                    <td>18/07/2023</td>
+                    <td>18/10/2023</td>
+                    <td>Funcional</td>
+                </tr>
+            
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
